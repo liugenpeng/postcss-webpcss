@@ -64,7 +64,7 @@ gulp.task('webp:cssfix', function(){
 
 ## 处理前css文件
 ```
-.task-quick-do-titaw .ico-apply  { background:url(../../../images/webp/components/tita-widget/reward-close-btn.webp) no-repeat }
+.task-quick-do-titaw .ico-apply  { background:url(../../../images/webp/components/tita-widget/reward-close-btn.png) no-repeat }
 .task-quick-do-titaw .ico-apply { background-position:0 -120px }
 ```
 ## 处理后css样式
