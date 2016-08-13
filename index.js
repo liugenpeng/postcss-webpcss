@@ -1,7 +1,7 @@
 var postcss = require('postcss');
 var helpers = require('postcss-helpers');
 var fs = require('fs');
-module.exports = postcss.plugin('postcss-webp', function (opts) {
+module.exports = postcss.plugin('postcss-webpcss', function (opts) {
     var defaultOptions = {
         suffix:['.png', '.jpg'],
         rules:{
