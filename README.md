@@ -11,7 +11,8 @@
 > 将样式表含有background并且含有url规则的样式抽取出来，然后加上浏览器(比如.chrome)前缀，并将url中图片路径替换成webp格式图片路径，最后将抽取的规则生成一个新的样式表文件
 
 ## demo
-gulpfile
+
+gulp配置（演示含有@import 或者想忽略某些文件的用法）
 ```
 var postcssWebp = require( './index' );
 var atImport = require("postcss-import")
@@ -64,6 +65,7 @@ gulp.task('webp:cssfix', function(){
 ## 处理前css文件
 ```
 .task-quick-do-titaw .ico-apply  { background:url(../../../images/webp/components/tita-widget/reward-close-btn.webp) no-repeat }
+.task-quick-do-titaw .ico-apply { background-position:0 -120px }
 ```
 ## 处理后css样式
 ```
